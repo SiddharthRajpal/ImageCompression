@@ -21,13 +21,13 @@ The script creates a text file named `text.txt` in the same directory as the scr
 
 If you have an image with dimensions 500x500, the resulting text file will contain 250,000 lines, each representing a pixel in the image. Here's an example of how the contents of the `text.txt` file might look:
 
-0,0,(255, 255, 255)
-0,1,(255, 255, 255)
-0,2,(255, 255, 255)
-...
-499,498,(0, 0, 0)
+0,0,(255, 255, 255) \n
+0,1,(255, 255, 255) \n
+0,2,(255, 255, 255) \n
+... \n
+499,498,(0, 0, 0) \n
 
-499,499,(0, 0, 0)
+499,499,(0, 0, 0) \n
 
 
 ## Limitations
